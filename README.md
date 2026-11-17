@@ -20,7 +20,7 @@ page only — each gift command with a short clip of what it does in the game, p
 - `plus N` — add N soldiers · `minus N` — remove N (can go negative)
 - `bomb N` — a bomb drops on the army: −N
 - `shield S` — a shield dome for S seconds: no losses at all
-- `random plus LO HI` / `random minus LO HI` — สุ่มช่วย / สุ่มแกล้ง cards roll LO..HI
+- `random plus LO HI` / `random minus LO HI` — สุ่มช่วย (a supply crate on a parachute) / สุ่มแกล้ง (a missile on a target ring): a counter races to a LO..HI result as it lands
 
 ## Kaitunshop preset
 [`army-kaitunshop-preset.json`](army-kaitunshop-preset.json) — import it in Kaitunshop: แดชบอร์ด → นำเข้า / ส่งออกโปรไฟล์.
