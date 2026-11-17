@@ -8,7 +8,7 @@
 
 A TikTok live gate runner: the streamer steers the army through + / − gates, past monsters and bosses the army shoots, and over pickups; viewers' gifts add soldiers (help) or remove them
 (prank, the count can go below zero). Reach the target (150,000 by default) and hold it for 15 s to win. This repo is the command
-page only — each gift command with a short clip of what it does in the game, plus the Kaitunshop preset and its pictures.
+page only — each gift command with a short clip of what it does in the game, plus the YLTik preset and its pictures.
 
 **Page:** https://command-by-avo.github.io/army-commands/
 
