@@ -1,7 +1,31 @@
-# ทหารบวกลบ — commands
+<p align="center"><img src="readme/yl_logo.png" height="64" alt="YL"></p>
 
-Gift commands for the Kaitunshop live game **ทหารบวกลบ** (Army ±), with a short clip of what each command does, the gift preset to import, and the preset pictures.
+# ทหารบวกลบ (Army ±) — gift commands
+
+![ทหารบวกลบ](cover.jpg)
+
+**A YL game** (YL Entertainment licence) · runs on **Kaitunshop** (web game) · not part of AVO Play.
+
+A TikTok live gate runner: the streamer steers the army through + / − gates; viewers' gifts add soldiers (help) or remove them
+(prank, the count can go below zero). Reach the target (150,000 by default) and hold it for 15 s to win. This repo is the command
+page only — each gift command with a short clip of what it does in the game, plus the Kaitunshop preset and its pictures.
 
 **Page:** https://command-by-avo.github.io/army-commands/
 
-Commands: `plus N`, `minus N`, `bomb N`, `shield S`, `random plus LO HI`, `random minus LO HI`.
+| บวก | สุ่มช่วย | โล่ | ลบ | ระเบิด | สุ่มแกล้ง |
+|---|---|---|---|---|---|
+| ![plus](media/plus.jpg) | ![random plus](media/r_help.jpg) | ![shield](media/shield.jpg) | ![minus](media/minus.jpg) | ![bomb](media/bomb.jpg) | ![random minus](media/r_prank.jpg) |
+
+## Commands
+- `plus N` — add N soldiers · `minus N` — remove N (can go negative)
+- `bomb N` — a bomb drops on the army: −N
+- `shield S` — a shield dome for S seconds: no losses at all
+- `random plus LO HI` / `random minus LO HI` — สุ่มช่วย / สุ่มแกล้ง cards roll LO..HI
+
+## Kaitunshop preset
+[`army-kaitunshop-preset.json`](army-kaitunshop-preset.json) — import it in Kaitunshop: แดชบอร์ด → นำเข้า / ส่งออกโปรไฟล์.
+Each game action: eventName = the command's first word, payload = `{"cmd": "<full command>"}`.
+
+![preset pictures](pictures/army-12.png)
+
+Part of [Command BY AVO](https://github.com/Command-BY-AVO) — one page per game, gift commands + clips.
