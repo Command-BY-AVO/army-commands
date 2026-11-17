@@ -16,6 +16,10 @@ page only — each gift command with a short clip of what it does in the game, p
 |---|---|---|---|---|---|
 | ![plus](media/plus.jpg) | ![random plus](media/r_help.jpg) | ![shield](media/shield.jpg) | ![minus](media/minus.jpg) | ![bomb](media/bomb.jpg) | ![random minus](media/r_prank.jpg) |
 
+| มอนสเตอร์ (ของหล่น ต้องไปเก็บ) | บอส | ปืน | ประตูคณิต | ชนะ |
+|---|---|---|---|---|
+| ![monster](media/monster.jpg) | ![boss](media/boss.jpg) | ![guns](media/guns.jpg) | ![gates](media/gates.jpg) | ![win](media/win.jpg) |
+
 ## Commands
 - `plus N` — add N soldiers · `minus N` — remove N (can go negative)
 - `bomb N` — a bomb drops on the army: −N
