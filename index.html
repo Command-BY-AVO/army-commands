@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ทหารบวกลบ คำสั่ง</title><link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;800&family=Sarabun:wght@400;600&display=swap">
+<style>
+:root{--bg:#0d1b2a;--panel:#14283c;--ink:#eaf4ff;--muted:#9fb6cc;--line:#2a4560;--green:#78e68c;--pink:#ff7896;--gold:#ffd23f;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Sarabun,Kanit,system-ui,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:24px max(16px,env(safe-area-inset-right)) 64px max(16px,env(safe-area-inset-left));display:grid;gap:32px}
+h1,h2{font-family:Kanit,sans-serif;margin:0}h1{font-size:clamp(28px,5vw,42px)}h2{font-size:24px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}h2 small{font:400 14px Sarabun;color:var(--muted)}
+.hero img{width:100%;border-radius:16px;display:block}.hero p{color:var(--muted);margin:8px 0 0}
+section{display:grid;gap:12px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.cmd{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.clip{aspect-ratio:2/3;background:#000}.clip video{width:100%;height:100%;object-fit:cover;display:block}
+figcaption{padding:12px 14px 14px;display:grid;gap:8px}figcaption p{margin:0}
+.copy{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;padding:8px 12px;border-radius:10px;border:1px solid var(--green);background:#08131e;color:var(--ink);cursor:pointer;font:600 15px Kanit,sans-serif}
+.prank .copy{border-color:var(--pink)}
+.copy code{font:700 16px ui-monospace,monospace;color:var(--gold)}.copy span{font-size:13px;color:var(--muted)}.copy.ok span{color:var(--green)}
+.gifts{display:flex;flex-wrap:wrap;gap:6px}.gift{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 4px;border-radius:99px;background:#20384f;font-size:13px}.gift img{width:24px;height:24px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:10px}
+.box a{color:var(--gold)} .pics{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))} .pics img{width:100%;border-radius:10px;background:#20384f}
+footer{color:var(--muted);font-size:13px}
+</style></head><body><main>
+<header class="hero"><img src="cover.jpg" alt="ทหารบวกลบ"><h1>ทหารบวกลบ · คำสั่ง</h1>
+<p>เกมไลฟ์ Kaitunshop · คนดูส่งของขวัญ บวกทหาร หรือ แกล้งลบ (ติดลบได้) · ถึงเป้าแล้วค้างไว้ 15 วิ = ชนะ · แต่ละคำสั่งมีคลิปให้ดูว่าเกิดอะไรขึ้น</p></header>
+
+<section class="box"><h2>📦 พรีเซ็ต + รูป</h2>
+<p>นำเข้าใน Kaitunshop: แดชบอร์ด → นำเข้า / ส่งออกโปรไฟล์ → ไฟล์ <a href="army-kaitunshop-preset.json" download>army-kaitunshop-preset.json</a> · แอคชั่นเกมแต่ละอัน: eventName = คำแรกของคำสั่ง, payload = <code>{"cmd": "คำสั่งเต็ม"}</code></p>
+<div class="pics"><img src="pictures/army-6.png" alt="บน 3 ล่าง 3"><img src="pictures/army-12.png" alt="บน 6 ล่าง 6"></div></section>
+
+<section><h2>🛡️ ช่วย <small>บวกทหารให้ถึงเป้า</small></h2><div class="grid">
+<figure class="cmd"><div class="clip"><video src="media/plus.mp4" poster="media/plus.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="plus 100"><code>plus 100</code><span>ก๊อป</span></button><p>บวกทหาร · เลข = จำนวน (ส่งรัวคูณตามจำนวนครั้ง) · ของใหญ่ขึ้นป้ายกลางจอ</p><div class="gifts"><span class="gift"><img src="gifts/6064.webp" alt="">GG = +100</span><span class="gift"><img src="gifts/105781.webp" alt="">ฟุตบอลหมุน = +700</span><span class="gift"><img src="gifts/5779.webp" alt="">ฉันรักคุณ = +1,400</span><span class="gift"><img src="gifts/5660.webp" alt="">มืออุ้มหัวใจ = +15,000</span><span class="gift">ไลค์ทุก 100 = +100</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/r_help.mp4" poster="media/r_help.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="random plus 500 5000"><code>random plus 500 5000</code><span>ก๊อป</span></button><p>สุ่มช่วย: การ์ดทองหมุนตัวเลข แล้วบวกทหารตามที่สุ่มได้ · ตั้งช่วงเลขเองได้</p><div class="gifts"><span class="gift"><img src="gifts/19443.webp" alt="">เยี่ยมมาก! · 15 เหรียญ</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/shield.mp4" poster="media/shield.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="shield 20"><code>shield 20</code><span>ก๊อป</span></button><p>โล่: โดมฟ้าคลุมทหาร กันโดนลบทุกอย่าง (ของแกล้ง ระเบิด ประตูลบ) · เลข = วินาที ส่งซ้ำเวลาบวกเพิ่ม</p><div class="gifts"><span class="gift"><img src="gifts/6427.webp" alt="">หมวกกับหนวด · 99 เหรียญ</span></div></figcaption></figure>
+</div></section>
+
+<section class="prank"><h2>💀 แกล้ง <small>ลบทหาร ติดลบได้</small></h2><div class="grid">
+<figure class="cmd"><div class="clip"><video src="media/minus.mp4" poster="media/minus.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="minus 100"><code>minus 100</code><span>ก๊อป</span></button><p>ลบทหาร · เลข = จำนวน (ส่งรัวคูณตามจำนวนครั้ง)</p><div class="gifts"><span class="gift"><img src="gifts/5655.webp" alt="">กุหลาบ = −100</span><span class="gift"><img src="gifts/5487.webp" alt="">หัวใจนิ้ว = −700</span><span class="gift"><img src="gifts/5658.webp" alt="">น้ำหอม = −3,000</span><span class="gift"><img src="gifts/5585.webp" alt="">กระดาษโปรย = −15,000</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/negative.mp4" poster="media/negative.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><p><b>ติดลบได้</b> · ลบจนต่ำกว่า 0 ทหารกลายเป็นสีซีด ตัวเลขแดง ต้องบวกกลับขึ้นมาก่อน</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/bomb.mp4" poster="media/bomb.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="bomb 4500"><code>bomb 4500</code><span>ก๊อป</span></button><p>ระเบิด: ลูกระเบิดตกใส่ฝูง ระเบิดตูม จอสั่น ลบทหาร · เลข = จำนวน</p><div class="gifts"><span class="gift"><img src="gifts/5879.webp" alt="">โดนัท · 30 เหรียญ</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/r_prank.mp4" poster="media/r_prank.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="random minus 500 5000"><code>random minus 500 5000</code><span>ก๊อป</span></button><p>สุ่มแกล้ง: การ์ดชมพูหมุนตัวเลข แล้วลบทหารตามที่สุ่มได้ · ตั้งช่วงเลขเองได้</p><div class="gifts"><span class="gift"><img src="gifts/13000.webp" alt="">ฮิปโปน้อย · 15 เหรียญ</span><span class="gift"><img src="gifts/7934.webp" alt="">ใจส้ม = 50–500</span></div></figcaption></figure>
+</div></section>
+
+<section><h2>🎮 วิธีเล่น <small>สตรีมเมอร์</small></h2><div class="grid">
+<figure class="cmd"><div class="clip"><video src="media/gates.mp4" poster="media/gates.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><p>ประตู + / − วิ่งเข้ามาเรื่อยๆ · กด ← → / A D หรือแตะจอซ้าย-ขวา เลือกประตูบวก</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/win.mp4" poster="media/win.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><p>ถึงเป้า (ค่าเริ่ม 150,000 ตั้งได้) → นับถอยหลัง 15 วิ · ต่ำกว่าเป้าระหว่างนับ = ยกเลิก · นับครบ = ชนะ!</p></figcaption></figure>
+</div></section>
+<footer>ทหารบวกลบ · Command BY AVO</footer></main>
+<script>
+document.querySelectorAll('.copy').forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(b.dataset.c);b.classList.add('ok');b.querySelector('span').textContent='ก๊อปแล้ว';setTimeout(()=>{b.classList.remove('ok');b.querySelector('span').textContent='ก๊อป'},1500)}catch{const r=document.createRange();r.selectNodeContents(b.querySelector('code'));getSelection().removeAllRanges();getSelection().addRange(r)}});
+const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.preload='auto';v.play().catch(()=>{})}else v.pause()}),{threshold:.4});document.querySelectorAll('video').forEach(v=>io.observe(v));
+</script></body></html>

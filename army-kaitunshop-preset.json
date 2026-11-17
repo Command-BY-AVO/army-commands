@@ -1,0 +1,475 @@
+{
+ "version": 2,
+ "type": "vshop-gift-trigger-presets",
+ "exportedAt": "2026-11-17T00:00:00.000Z",
+ "profiles": [
+  {
+   "name": "ทหารบวกลบ มาตรฐาน",
+   "active": false,
+   "triggers": [
+    {
+     "slotIndex": 1,
+     "position": 1,
+     "name": "ช่วย บวก 100",
+     "giftId": null,
+     "triggerType": "like",
+     "threshold": 100,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": null,
+     "giftImageUrl": null,
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ช่วย บวก 100",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"plus 100\"}",
+        "eventName": "plus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 2,
+     "position": 2,
+     "name": "แกล้ง ลบ 100",
+     "giftId": 5655,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "กุหลาบ",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/eba3a9bb85c33e017f3648eaf88d7189~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "แกล้ง ลบ 100",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"minus 100\"}",
+        "eventName": "minus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 3,
+     "position": 3,
+     "name": "แกล้ง ลบ 700",
+     "giftId": 5487,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "หัวใจนิ้ว",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/a4c4dc437fd3a6632aba149769491f49.png~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "แกล้ง ลบ 700",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"minus 700\"}",
+        "eventName": "minus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 4,
+     "position": 4,
+     "name": "แกล้ง ลบ 3000",
+     "giftId": 5658,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "น้ำหอม",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/20b8f61246c7b6032777bb81bf4ee055~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "แกล้ง ลบ 3000",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"minus 3000\"}",
+        "eventName": "minus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 5,
+     "position": 5,
+     "name": "ระเบิด ลบ 4500",
+     "giftId": 5879,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "โดนัท",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/4e7ad6bdf0a1d860c538f38026d4e812~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ระเบิด ลบ 4500",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"bomb 4500\"}",
+        "eventName": "bomb",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 6,
+     "position": 6,
+     "name": "แกล้ง ลบ 15000",
+     "giftId": 5585,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "กระดาษโปรย",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/cb4e11b3834e149f08e1cdcc93870b26~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "แกล้ง ลบ 15000",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"minus 15000\"}",
+        "eventName": "minus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 7,
+     "position": 7,
+     "name": "สุ่มแกล้ง 500-5000",
+     "giftId": 13000,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "ฮิปโปน้อย",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/resource/d21610bf92ff47696df046b33851671b.png~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "สุ่มแกล้ง 500-5000",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"random minus 500 5000\"}",
+        "eventName": "random",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 8,
+     "position": 8,
+     "name": "สุ่มแกล้ง 50-500",
+     "giftId": 7934,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "ใจส้ม",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/d56945782445b0b8c8658ed44f894c7b~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "สุ่มแกล้ง 50-500",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"random minus 50 500\"}",
+        "eventName": "random",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 9,
+     "position": 9,
+     "name": "ช่วย บวก 100",
+     "giftId": 6064,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "GG",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/3f02fa9594bd1495ff4e8aa5ae265eef~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ช่วย บวก 100",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"plus 100\"}",
+        "eventName": "plus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 10,
+     "position": 10,
+     "name": "ช่วย บวก 700",
+     "giftId": 105781,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "ฟุตบอลหมุน",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/74a30ed3492d3e7d317efe7e10c3ba51.png~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ช่วย บวก 700",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"plus 700\"}",
+        "eventName": "plus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 11,
+     "position": 11,
+     "name": "ช่วย บวก 1400",
+     "giftId": 5779,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "ฉันรักคุณ",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/beaaa3a78a00b5b20661b00924ab0e7f~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ช่วย บวก 1400",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"plus 1400\"}",
+        "eventName": "plus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 12,
+     "position": 12,
+     "name": "ช่วย บวก 15000",
+     "giftId": 5660,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "มืออุ้มหัวใจ",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/6cd022271dc4669d182cad856384870f~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "ช่วย บวก 15000",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"plus 15000\"}",
+        "eventName": "plus",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 13,
+     "position": 13,
+     "name": "สุ่มช่วย 500-5000",
+     "giftId": 19443,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "เยี่ยมมาก!",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/075e206d6da035f10ff5f8fecd82abcc.png~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "สุ่มช่วย 500-5000",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"random plus 500 5000\"}",
+        "eventName": "random",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    },
+    {
+     "slotIndex": 14,
+     "position": 14,
+     "name": "โล่ 20 วิ",
+     "giftId": 6427,
+     "triggerType": "gift",
+     "threshold": 1,
+     "useChatTrigger": false,
+     "chatKeyword": null,
+     "giftName": "หมวกกับหนวด",
+     "giftImageUrl": "https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/2f1e4f3f5c728ffbfa35705b480fdc92~tplv-obj.webp",
+     "enabled": true,
+     "cooldownSeconds": 0,
+     "minCount": 1,
+     "burstCount": 0,
+     "burstWindowSeconds": 0,
+     "followerOnly": false,
+     "actions": [
+      {
+       "position": 1,
+       "name": "โล่ 20 วิ",
+       "type": "game",
+       "enabled": true,
+       "delayMs": 0,
+       "config": {
+        "gameId": "cmuf7oyy800b174nrfnr9eiwn",
+        "payload": "{\"cmd\": \"shield 20\"}",
+        "eventName": "shield",
+        "actionRepeatCount": 1
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
